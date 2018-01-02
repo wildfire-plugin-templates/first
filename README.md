@@ -1,9 +1,36 @@
 # first
 The first wildfire plugin template.
 
-## After init
+## Install
 
-**Run the following commands to view an example:**
+You can install this template with [`wf-cli`](https://github.com/wildfire/wf-cli).
+
+```
+npm install wf-cli -g
+```
+
+Then init a plugin project with `wf-cli` and this template.
+
+```
+wf init first wildfire-my-plugin
+```
+
+You will then be aksed to provide some information. Here are two most important ones:
+
+- `project name`:
+
+  > Use **lowercase** for `project name`, connect words with `-`, and add prefix `wf-`. E.g., [`wildfire-pinned-comment`](https://github.com/cheng-kang/wildfire-pinned-comment).
+
+- `module name`:
+
+  Module name is what we use to reference a plugin in code. 
+  
+  > Use **PascalCase** for `module name`, and add prefix `Wf`. E.g., `WfPinnedComment` for [`wildfire-pinned-comment`](https://github.com/cheng-kang/wildfire-pinned-comment).
+
+
+## After Init
+
+Run the following commands to view **an example**:
 
 ```
 cd PROJECT_NAME
@@ -11,16 +38,11 @@ npm run build
 open ./example/firebase.html
 ```
 
-**Or:**
+**OR**
 
-1. `cd` to your project directory
+1. make any change to the source code
 
-2. run `npm run build` to build your plugin
+2. run `npm run build` to re-build your plugin
 
-3. then you can view your plugin by `open ./example/firebase.html`.
+3. then view your plugin by `open ./example/firebase.html`.
 
-## Standards / Recommendations
-
-1. Use **lowercase** for `project name`, connect words with `-`, and add prefix `wf-`. E.g., [`wildfire-pinned-comment`](https://github.com/cheng-kang/wildfire-pinned-comment).
-
-2. Use **PascalCase** for `module name`, and add prefix `Wf`. Module name is what we use to reference a plugin in code. E.g., `WfPinnedComment` in [`wildfire-pinned-comment`](https://github.com/cheng-kang/wildfire-pinned-comment).
