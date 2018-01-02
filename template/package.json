@@ -8,7 +8,7 @@
     "dist",
     "src"
   ],
-  "main": "./dist/index.js",
+  "main": "./dist/{{ name }}.min.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/wildfirejs/wildfire-plugin-template.git"
