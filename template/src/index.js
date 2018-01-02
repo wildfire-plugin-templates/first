@@ -16,7 +16,7 @@ export default (options = {}) => {
       })
 
       registerComponent('{{name}}', {{module_name}})
-      renderAt('header.after', 'example-plugin')
+      renderAt('header.after', '{{module_name}}')
     },
     options: options
   }

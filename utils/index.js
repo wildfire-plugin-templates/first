@@ -73,8 +73,7 @@ To get started:
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
-    )}${lintMsg(data)}npm run build\n
-    open ./example/firebase.html
+    )}${lintMsg(data)}npm run build\nopen ./example/firebase.html
     `
   )}
   
