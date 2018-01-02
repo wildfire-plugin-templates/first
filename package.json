@@ -1,0 +1,9 @@
+{
+  "name": "wf-cli-template-first",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "The first template for wildfire plugin.",
+  "devDependencies": {
+    "wf-cli": "^0.0.0"
+  }
+}
